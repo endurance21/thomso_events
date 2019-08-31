@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+:root{
+    --offsetY:156px;
+
+}
+body{
+    background-color: #34495E  ;
+}
+.wrapper{
+    position: relative;
+}
+
+/* michael-afonso-z8Tul255kGg-unsplash */
+.img_left{
+position:absolute;
+width: 725.68px;
+height: 1024px;
+}
+.img_left>img{
+    max-width: 100% ;
+} 
+/*event title example FOOTLOOSE */
+.event_title{
+position: absolute;
+width: 564px;
+height: 106px;
+left: 490.05px;
+top: 86.15px;
+
+font-family: Lato;
+font-size: 88px;
+line-height: 106px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+
+.event_title_description{
+ /* STAGE DANCE COMPETITION */
+position: absolute;
+width: 416px;
+height: 36px;
+left: 490.05px;
+top: 194.25px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.event_discription{
+position: absolute;
+width: 536.79px;
+height: 132px;
+left: 685.51px;
+top: 285.23px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 124%;
+
+color: #FFFFFF;    
+}
+.event_prize_worth{
+    /* prizes worth */
+position: absolute;
+width: 125px;
+height: 27px;
+left: 685.51px;
+top: 453px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #E40F1B;
+
+}
+
+.event_prize_money_value{
+    /* 150K */
+
+position: absolute;
+width: 122px;
+height: 84px;
+left: 685.29px;
+top: 473px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 84px;
+
+
+color: #E40F1B;
+
+
+}
+.event_rectangle1{
+    /* Rectangle ADD EVENT  */
+position: absolute;
+width: 210px;
+height: 50px;
+left: 689px;
+top: 590.5px;
+
+background: rgba(255, 255, 255, 0.87);
+border-radius: 2px;
+
+}
+.event_rectangle2{
+    /* Rectangle RULE BOOK */
+position: absolute;
+width: 210px;
+height: 50px;
+left: 972.32px;
+top: 590.5px;
+
+background: rgba(255, 255, 255, 0.87);
+border-radius: 2px;
+
+}
+
+.event_addevent_button{
+    /* Add event */
+position: absolute;
+width: 115px;
+height: 33px;
+left: 736.5px;
+top: 599.5px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+
+
+color: #0F1B35;
+
+
+}
+
+.event_rulebook_button{
+    /* Rulebook */
+
+position: absolute;
+width: 104px;
+height: 33px;
+left: 1024.82px;
+top: 599.5px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+
+
+color: #0F1B35;
+}
+
+.corousel{
+    position: relative;
+    left:calc(100% - 100px);
+    width:100vh;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    transform: rotate(90deg);
+    transform-origin: 0% 0% ;
+
+}
+.hr1{
+    position:absolute;
+    left:2px;
+    width:40%;
+    border:2px solid white;
+    transform: rotate(90deg);
+    transform-origin: 0% 0% ;
+}
+.hr2{
+    position:absolute;
+    right:-2px;
+    width:30%;
+    border:2px solid white;
+    transform: rotate(90deg);
+    transform-origin: 0% 0% ;
+}
+
+
+
+
+@media (max-width:600px){
+    body{
+        /* overflow-X: hidden; */
+        /* zoom:380%; */
+    }
+    .img_left{
+        /* michael-afonso-z8Tul255kGg-unsplash */
+        position: absolute;
+        width: 100%;
+        /* height: 273px; */
+        left: 0px;
+        top: calc(var(--offsetY)/3);
+
+
+    }
+    .img_left>img{
+        width:100vw;
+        height: 434px;
+    }
+    .event_title{
+        /* FOOTLOOSE */
+
+    position: absolute;
+    width: 285px;
+    height: 53px;
+    left: 26.81px;
+    top: calc(285px + var(--offsetY));
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 49px;
+
+    /* identical to box height */
+    
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .event_title_description {
+        /* STAGE DANCE COMPETITION */
+
+    position: absolute;
+    width: 195px;
+    height: 17px;
+    left: 26.81px;
+    top: calc(329px + var(--offsetY));
+
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    }
+
+
+
+    .event_discription{
+
+    position: absolute;
+    width: 315px;
+    height: 60px;
+    left: 23px;
+    top: calc(370px + var(--offsetY));
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 124%;
+    
+    color: #FFFFFF;
+    }
+
+    .event_prize_worth{
+        /* prizes worth */
+
+    position: absolute;
+    width: 86px;
+    height: 18px;
+    left: 137px;
+    top: calc(506px + var(--offsetY)/1.3);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #E40F1B;
+
+    }
+    .event_prize_money_value{
+        /* 150K */
+
+    position: absolute;
+    width: 91px;
+    height: 60px;
+    left: 137px;
+    top: calc(519px + var(--offsetY)/1.3);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #E40F1B;
+
+
+    }
+
+    .event_rectangle1{
+        /* Rectangle */
+
+    position: absolute;
+    width: 145px;
+    height: 35px;
+    left: 23px;
+    top: calc(599px + var(--offsetY)/1.2);
+
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 2px;
+
+    }
+    .event_rectangle2{
+        /* Rectangle */
+
+    position: absolute;
+    width: 145px;
+    height: 35px;
+    left: 193px;
+    top: calc(599px + var(--offsetY)/1.2);;
+
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 2px;
+
+    }
+    .event_addevent_button{
+        /* Add event */
+
+    position: absolute;
+    width: 73px;
+    height: 21px;
+    left: 59px;
+    top: calc(606px + var(--offsetY)/1.2);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+   
+
+    color: #0F1B35;
+
+
+
+    }
+    .event_rulebook_button{
+        /* Rulebook */
+
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    left: 232px;
+    top: calc(606px + var(--offsetY)/1.2);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F1B35;
+
+
+
+    }
+
+
+
+
+    
+}
